@@ -1,0 +1,28 @@
+body {
+    font-size: 16px;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header-nav { /*style narbar box*/
+    background-color: lightblue;
+    border-radius: 0;
+    border: 1;
+}
+
+.navbar-brand {/*position text within navbar*/
+    padding-top: 12px;  
+}
+
+.navbar-brand h1 { /*Restaurant name*/
+    color: black; 
+    font-size: 1.5em;  
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0; 
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{ /*get rid of underline while hovering/focusing*/
+    text-decoration: none;
+}
